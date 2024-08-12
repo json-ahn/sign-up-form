@@ -1,0 +1,33 @@
+.wrapper > #boxes-1 {
+    display: flex;
+    width: 40%;
+    margin-top: 20%;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wrapper > #boxes-2 {
+    width: 60%;
+    margin-left: 40%;
+    border: 1px solid black;
+    height: 100vh;
+    position: absolute;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
